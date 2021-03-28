@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 61%, 13%)
+}
+.slider{
+    position: relative;
+    min-width: 90%;
+    margin: auto;
+    height: 300px;
+}
+ .slider .image img{
+    width: 80%;
+    height: 600px;
+}
+.slider .prev, .slider .next{
+    position: absolute;
+    top: 50%;
+    width: auto;
+    background-color: #147;
+    margin-top: -22px;
+    padding: 16px;
+    border-radius: 0 3px 0 3px;
+    cursor: pointer;
+    transition: 0,5s ease;
+} 
+.slider .next{
+    right:0;
+    border-radius: 3px 0 0 3px;
+}
+.slider .prev:hover, .slider .next:hover{
+    background-color: rgba(12,77,85);
+    color: white;
+}
+.image{
+    margin-left: 200px;
+    margin-top: 50px;
+    border-color: #147;
+}
+img{
+    border-radius: 10px 10px 10px 10px;
+    border-color: blue;
+    border: 10px;
+}
+ .slider .prev{
+    margin-top: 90px;
+    margin-left: 170px;
+    border-radius: 5px 0 0 5px ;
+    border-color: #147
+}
+.slider .next{
+    margin-top: 108px;
+    margin-right: 200px;
+    border-radius: 0 5px  5px 0 ;
+    border-color: #147;
+}
+.prev img{
+width: 10px;
+height: 20px;
+}
+.next img{
+    width: 10px;
+    height: 20px;
+}
